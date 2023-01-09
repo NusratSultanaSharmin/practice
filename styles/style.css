@@ -1,0 +1,84 @@
+/* block element k center e newa */
+
+/* div{
+    font-size: 20px;
+    text-align: center;
+    border:5px solid;
+    padding: 100px 0;
+} */
+
+div{
+    color:brown;
+    /* border-color: greenyellow; */
+    width:300px;
+    border: 5px solid;
+    /* margin-left: auto; */
+    /* margin-right:auto; */
+    font-size: 20px;
+    
+}
+
+/* inline element k block kre center e newa */
+img{
+    width: 500px;
+    height:600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* span{
+    display:block;
+    width:40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+} */
+
+
+/* inline element div e thake tkn center e newa */
+
+ /* div #lorem{
+    color:aqua;
+    width:40px;
+    position: absolute;
+    top:40%;
+    right:30%;
+ } */
+
+ div .big-content{
+    color:blue;
+    font-size: 25px;
+
+    position: absolute;
+    top:50%;
+    right:50%;
+
+    transform: translate(-50%, -50%);
+ }
+ /*  */
+
+ /* flex styles */
+
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+
+
+    text-align: center;
+    height:500px;
+    width: 100vw;
+
+ }
+ .container div{
+    border:2px solid;
+    /* display: flex; */
+
+        height:200px;
+    width: 200px;
+    background-color:lightcoral;
+
+ }
+
