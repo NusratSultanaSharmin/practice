@@ -81,4 +81,17 @@ img{
     background-color:lightcoral;
 
  }
+/* background styles */
 
+#background{
+    
+    background-image:linear-gradient( rgba(127, 163, 213, 0.704), rgba(10, 11, 10, 0.339)) ,url('../images/background.jpg');
+    width: 80%;
+    height: 90vh;
+    border: 2px solid;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
